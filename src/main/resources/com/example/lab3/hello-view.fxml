@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab3.Controller">
+   <children>
+      <Button fx:id="btnMain" layoutX="102.0" layoutY="265.0" mnemonicParsing="false" onAction="#onBtnAction" prefHeight="161.0" prefWidth="374.0" text="Koszt" textFill="#12c1e4">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <TextField fx:id="wysokosc" layoutX="490.0" layoutY="160.0" prefHeight="40.0" prefWidth="100.0" />
+      <TextField fx:id="grubosc" layoutX="260.0" layoutY="160.0" prefHeight="40.0" prefWidth="100.0" />
+      <TextField fx:id="promien" layoutX="714.0" layoutY="160.0" prefHeight="40.0" prefWidth="100.0" />
+      <TextArea layoutX="347.0" layoutY="50.0" prefHeight="50.0" prefWidth="374.0" text="Walec wysokosc, grubosc, promien oraz rodzaj tworzywa" />
+      <TextField fx:id="wynik" layoutX="738.0" layoutY="388.0" prefHeight="40.0" prefWidth="100.0">
+      <font>
+         <Font size="20.0" />
+      </font>
+      <effect>
+         <Glow />
+      </effect></TextField>
+      <TextField fx:id="wynik2" layoutX="738.0" layoutY="345.0" prefHeight="40.0" prefWidth="100.0" />
+      <TextField fx:id="koszt" layoutX="844.0" layoutY="345.0" prefHeight="40.0" prefWidth="100.0" />
+      <TextField fx:id="koszt2" layoutX="844.0" layoutY="390.0" prefHeight="40.0" prefWidth="100.0" />
+     <AnchorPane layoutX="40" layoutY="300" prefHeight="10" prefWidth="100" />
+      <TextArea layoutX="632.0" layoutY="345.0" prefHeight="40.0" prefWidth="100.0" text="Stal:">
+         <font>
+            <Font size="10" />
+         </font>
+         </TextArea>
+      <TextArea layoutX="632.0" layoutY="390.0" prefHeight="40.0" prefWidth="100.0" text="Stal nierdzewna:">
+         <font>
+            <Font size="10" />
+         </font>
+      </TextArea>
+       <TextArea layoutX="844.0" layoutY="290.0" prefHeight="40.0" prefWidth="100.0" text="Koszt:">
+      <font>
+         <Font size="10" />
+      </font>
+       </TextArea>
+      <TextArea layoutX="738.0" layoutY="290.0" prefHeight="40.0" prefWidth="100.0" text="Masa:">
+      <font>
+         <Font size="10" />
+      </font>
+      </TextArea>
+      <TextArea layoutX="714.0" layoutY="120.0" prefHeight="40.0" prefWidth="100.0" text="promien:">
+      <font>
+         <Font size="10" />
+      </font>
+      </TextArea>
+      <TextArea layoutX="490.0" layoutY="120.0" prefHeight="40.0" prefWidth="100.0" text="grubosc:">
+      <font>
+         <Font size="10" />
+      </font>
+      </TextArea>
+       <TextArea layoutX="260.0" layoutY="120.0" prefHeight="40.0" prefWidth="100.0" text="wysokosc:">
+      <font>
+         <Font size="10" />
+      </font>
+       </TextArea>
+      </children>
+         </AnchorPane>
